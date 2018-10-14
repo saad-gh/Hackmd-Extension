@@ -1,0 +1,4 @@
+var span_arabic = '<span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-tag cm-bracket CodeMirror-matchingtag">&lt;</span><span class="cm-m-xml cm-tag CodeMirror-matchingtag">span</span><span class="cm-m-xml CodeMirror-matchingtag"> </span><span class="cm-m-xml cm-attribute CodeMirror-matchingtag">style</span><span class="cm-m-xml CodeMirror-matchingtag">=</span><span class="cm-m-xml cm-string CodeMirror-matchingtag">"font-family:Simplified Arabic;font-size:40px"</span><span class="cm-m-xml cm-tag cm-bracket CodeMirror-matchingtag">&gt;</span><span class="cm-m-xml cm-tag cm-bracket CodeMirror-matchingtag">&lt;/</span><span class="cm-m-xml cm-tag CodeMirror-matchingtag">span</span><span class="cm-m-xml cm-tag cm-bracket CodeMirror-matchingtag">&gt;</span></span>';
+
+var active_preTag = document.querySelectorAll("div.CodeMirror-activeline > pre.CodeMirror-line")[0];
+active_preTag.innerHTML = active_preTag.innerHtml + span_arabic;
