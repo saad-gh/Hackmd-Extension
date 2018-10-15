@@ -4,13 +4,21 @@
     "description": "!",
     "permissions": [
         "management",
-        "activeTab"
+        "activeTab",
+        "tabs"
     ],
     "background": {
         "scripts": [
             "background.js"
         ],
         "persistent": false
+    },
+    "command": {
+      "insert-span": {
+            "suggested_key": {
+              "default": "Alt+S",
+            }
+          }
     },
     "manifest_version": 2
 }
