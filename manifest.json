@@ -1,23 +1,22 @@
 {
-    "name": "Hackmd Extension",
+    "name": "Span Arabic",
     "version": "1.0",
-    "description": "!",
+    "description": "Makes arabic text more readable!",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
     "permissions": [
         "management",
         "activeTab",
         "tabs"
     ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
-    },
-    "command": {
+    "commands": {
       "insert-span": {
             "suggested_key": {
-              "default": "Alt+S",
-            }
+              "default": "Alt+S"
+            },
+            "description":"Inserts span with Arabic Font"
           }
     },
     "manifest_version": 2
