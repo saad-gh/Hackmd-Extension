@@ -3,13 +3,13 @@
     "version": "1.0",
     "description": "Makes arabic text more readable!",
     "background": {
-      "scripts": ["background.js"],
+      "page": "background.html",
       "persistent": false
     },
     "permissions": [
-        "management",
-        "activeTab",
-        "tabs"
+        "clipboardRead",
+        "clipboardWrite",
+        "activeTab"
     ],
     "commands": {
       "insert-span": {
