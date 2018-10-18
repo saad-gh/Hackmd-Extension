@@ -1,4 +1,0 @@
-- Explore management API to insert span on current input tool toggle
-- Optimize
-   - Only run for Hackmd
-   - Remove redundant permissions
